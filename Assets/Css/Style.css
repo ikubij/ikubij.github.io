@@ -1,0 +1,237 @@
+/*
+
+custom made styles
+
+*/
+.jay-teal{
+	color:#009688;
+	
+}
+.jay-link{
+	text-decoration:underline #fff;
+	color:;
+	cursor:pointer;	
+}
+.jay-title{
+font-weight:bold;
+
+}
+.project-title{
+font-family:"Times New Roman", Times, serif}
+.jay-img{
+height:inherit;
+width:inherit;
+max-height:168px;
+max-width:122px;	
+}
+.jay-stickers>span{
+background:#999;
+color:#FFF;
+padding:5px 10px 5px 10px;
+
+}
+#btnputwork{
+margin-top:50px;
+color:white;
+font-weight:bold;
+border-radius:15px;
+}
+.link-img{
+height:inherit;
+width:inherit;
+max-width:32px;
+max-height:32px;
+}
+@media(max-width :500px){
+.link-img{
+height:inherit;
+width:inherit;
+width:25px;
+max-height:25px;
+}
+
+}
+/*
+
+style the header
+
+*/
+header,section,footer{
+	font-family:"Courier New", Courier, monospace
+}
+header{
+	background-repeat:repeat;
+	background-image:url(../Img/noise.png);
+	background-color:#009688;
+	background:#009688 url(../Img/noise.png);
+	
+}
+#logo{
+height:inherit;
+width:inherit;
+max-height:168px;
+max-width:122px;
+margin-top:20px
+}
+/* 
+
+style the what i can do section
+
+*/
+#whaticando,#skills{
+	background-repeat:repeat;
+	background-image:url(../Img/brushed-alum-dark.png);
+	background-color:#EFEFEF;
+	background:#EFEFEF url(../Img/brushed-alum-dark.png);
+	width:100%;
+	height:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	box-shadow:0px 2px 8px 2px #CCCCCC inset;
+}
+/* 
+
+style the work section
+
+*/
+#mywork{
+	color:#FFF;
+	border-top:2px #000000 thick;
+	background-repeat:repeat;
+	background-image:url(../Img/brushed-alum-dark.png);
+	background-color:#EFEFEF;
+	background:#009688 url(../Img/arches.png);
+	width:100%;
+	height:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+
+@media(max-width:576px){
+#whatihavebeencard{
+	margin-top:50px;
+}
+}
+/*
+
+style the animated text
+
+*/
+.morphext > .animated {
+    display: inline-block;
+}
+#webtools,#apptools{
+font-weight:bold;
+}
+.float-right{
+float:right;
+}
+
+
+.btn.btn-info{
+color:white;
+font-weight:bold;
+border-radius:15px;
+}
+.carousel{
+height:inherit;
+width:inherit;
+max-height:168px;
+max-width:122px;
+}
+
+
+/*!
+
+ * style the footer
+ * create a ribbon
+	
+*/
+footer{
+background:#616161 url(../Img/noise.png);
+color:white;
+padding-top:40px;
+margin-top:40px;
+}
+.footer-ribbon {
+	background: #999 url(../Img/church.png);
+	position: absolute;
+	margin: -55px 0 0 14px;
+	padding: 10px 20px 6px 20px;
+}
+.footer-ribbon:before {
+	border-right: 10px solid #646464;
+	border-top: 16px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	left: -10px;
+	position: absolute;
+	top: 0;
+	width: 7px;
+}
+.footer-ribbon span {
+	color: #FFF;
+	font-size: 1.6em;
+	font-family: "Comic Sans MS", cursive;
+}
+#footerfinal{
+	background-repeat:repeat;
+	background-image:url(../Img/brushed-alum-dark.png);
+	background-color:#000;
+	background:#333 url(../Img/brushed-alum-dark.png);
+	width:100%;
+	height:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/*
+
+ style portfolio
+ 
+ 
+*/
+#downloadcv{
+margin:50px 0 50px 0;	
+}
+/*
+
+	work section
+	
+*/
+#work{
+	color:#FFF;
+	border-top:2px #000000 thick;
+	background-repeat:repeat;
+	background-image:url(../Img/brushed-alum-dark.png);
+	background-color:#F0F0F0;
+	background:#F0F0F0 url(../Img/church.png);
+	width:100%;
+	height:100%;
+	padding-top:50px;
+	padding-bottom:50px;
+	box-shadow:0px 2px 8px 2px #CCCCCC inset;
+}
+
+/*
+
+	create work cards
+	
+*/
+.work-cards{
+	box-shadow:2px 2px 5px 5px #CCCCCC;
+	background: #fff ;
+	color:#000;
+	margin:20px 0 0 0;
+	padding:50px 0 50px 0;
+}
+.work-img{
+height:inherit;
+width:inherit;
+max-height:300px;
+max-width:150px;	
+}
+
+
+
