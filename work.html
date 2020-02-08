@@ -8,6 +8,14 @@
 <link rel="stylesheet" type="text/css" href="Assets/Css/Style.css"/>
 <link rel="stylesheet" type="text/css" href="Assets/Css/aos.css"/>
 
+<!-- jQuery 1.8 or later, 33 KB -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Fotorama from CDNJS, 19 KB -->
+<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+
 </head>
 
 <body>
@@ -65,33 +73,139 @@
 	<section id="work">
 
     	<div class="container">
-        	<div class="row">
+
+            <!--TUSEMEZANE-->
+        	<div class="row" id="tusemezane-sec">
+                <div class="col-12 text-center">
+                    <div class="work-cards" data-aos="flip-left" data-aos-duration="1000">
+                        
+                        <h4 class="jay-title project-title swing">Tusemezane Feedback System</h4>
+                        <h5>jQuery | Bootstrap | PHP | MySQL</h5>
+                        <p>
+                            Feedback system for an NGO. Integrates SMSes, Calls and Emails in one system. Calls and SMS are recorded by use of android apps
+                            and backed up to the cloud. The email is linked to the NGOs email address and enables sending of magazines to farmer groups. <br/>
+
+                            Bulk SMS sending by use of Africa's talking API <br/>
+                            Analytics - such as emails received over time
+
+                        </p>
+                        <a class="btn btn-outline-info" href="http://rahisi.co.ke">link</a>
+
+                        <div class="fotorama" 
+                            data-width="80%"
+                            data-ratio="800/600" 
+                            style="margin:0 10% 0 20%"
+                            data-nav="thumbs"
+                            data-navposition="bottom">
+                                <img src="Assets/Img/tusemezane-1.png">
+                                <img src="Assets/Img/tusemezane-2.png">
+                                <img src="Assets/Img/tusemezane-3.png">
+                                <img src="Assets/Img/tusemezane-4.png">
+                                <img src="Assets/Img/tusemezane-5.png">
+                                <img src="Assets/Img/tusemezane-6.png">
+                                <img src="Assets/Img/tusemezane-7.png">
+                                <img src="Assets/Img/tusemezane-8.png">
+                                <img src="Assets/Img/tusemezane-9.png">
+                                <img src="Assets/Img/tusemezane-10.png">
+                                <img src="Assets/Img/tusemezane-11.png">
+                                <img src="Assets/Img/tusemezane-12.png">
+                                <img src="Assets/Img/tusemezane-13.png">
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!--RAHISI-->
+        	<!-- <div class="row" id="rahisi-sec">
             	<div class="col-12 text-center">
                 	<div class="work-cards" data-aos="flip-left" data-aos-duration="1000">
-                        <img src="Assets/Img/rahisi.png" class="work-img"/>
+                       
                         <h4 class="jay-title project-title swing">Rahisi</h4>
-                        <h5>Web design/UI/API</h5>
+                        <h5>Web design/UI/API (PHP/Bootstrap)</h5>
                         <p>
                             Rahisi is a landing page to a cryptocurrency agent. Uses APIS to fetch current price and display it. I created the user interface by use of soft colours to keep the website friendly and also maintain its business nature. I also used server side script to handle the business logic.
                         </p>
                         <a class="btn btn-outline-info" href="http://rahisi.co.ke">link</a>
+
+                        <div class="fotorama" 
+                            data-width="80%"
+                            data-ratio="800/600" 
+                            style="margin:0 10% 0 20%"
+                            data-nav="thumbs"
+                            data-navposition="bottom">
+                                <img src="https://s.fotorama.io/1.jpg">
+                                <img src="https://s.fotorama.io/2.jpg">
+                        </div>
+
+                        
                     </div>
                 </div>
-            </div>
+            </div> -->
             
-            <div class="row">    
+            <!--SALUTARE ADMIN-->
+            <div class="row" id="salutare-sec">    
+                    <div class="col-12 text-center"   >
+                        <div class="work-cards" data-aos="flip-right" data-aos-duration="1000">
+                            
+                            <h4 class="jay-title project-title swing">Salutare Admin</h4>
+                            <h5>VueJS | Materialize CSS | Firebase</h5>
+                            <p>
+                                Vue JS admin dashboard for a Salutare system. The system is for linking patients with mobile doctors by use of android mobile applications 
+                            </p>
+                            <a class="btn btn-outline-info" href="https://github.com/ikubij/itrans-bus-booking-system/tree/master/iTrans-bus-booking-system">Github link</a>
+    
+                            <div class="fotorama" 
+                                data-width="80%"
+                                data-ratio="800/600" 
+                                style="margin:0 10% 0 20%"
+                                data-nav="thumbs"
+                                data-navposition="bottom">
+                                    <img src="Assets/Img/salutare-1.png">
+                                    <img src="Assets/Img/salutare-2.png">
+                                    <img src="Assets/Img/salutare-3.png">
+                                    <img src="Assets/Img/salutare-4.png">
+                                    <img src="Assets/Img/salutare-5.png">
+                                    <img src="Assets/Img/salutare-6.png">
+                                    <img src="Assets/Img/salutare-7.png">
+                                    
+                                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!--iTRANS-->
+            <div class="row" id="itrans-sec">    
                 <div class="col-12 text-center"   >
                 	<div class="work-cards" data-aos="flip-right" data-aos-duration="1000">
-                        <img src="Assets/Img/itrans.png" class="work-img"/>
+                        
                         <h4 class="jay-title project-title swing">Itrans</h4>
                         <h5>Web design/UI/MySQL</h5>
                         <p>
                             It's a personal project of a bus booking system. I have been working on the idea to challenge myself into understanding the product design and boost my PHP skills.
                         </p>
-                        <a class="btn btn-outline-info" href="https://github.com/ikubij/itrans-bus-booking-system/tree/master/iTrans-bus-booking-system">link</a>
+                        <a class="btn btn-outline-info" href="https://github.com/ikubij/itrans-bus-booking-system/tree/master/iTrans-bus-booking-system">Github link</a>
+
+                        <div class="fotorama" 
+                            data-width="80%"
+                            data-ratio="800/600" 
+                            style="margin:0 10% 0 20%"
+                            data-nav="thumbs"
+                            data-navposition="bottom">
+                                <img src="Assets/Img/iTrans-1.png">
+                                <img src="Assets/Img/iTrans-2.png">
+                                <img src="Assets/Img/iTrans-3.png">
+                                <img src="Assets/Img/iTrans-4.png">
+                                <img src="Assets/Img/iTrans-5.png">
+                                <img src="Assets/Img/iTrans-6.png">
+                                
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
         <div class="text-center" style="margin:30px 0 20px 0">
         <a class="btn btn-success" href="index.html?#mywork">View less<b>&gt;&gt;</b></a>
