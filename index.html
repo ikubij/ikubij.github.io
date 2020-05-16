@@ -34,11 +34,13 @@
                                     <a class= "nav-link " href="portfolio.html">Portfolio </a>
                                     </li>                   
                                 </ul>
-                                <address>
-                                 <div class="navbar-header">
-                                   	<a class="btn btn-info" href="mailto:ikubij@gmail.com" id="btnputwork">Put me to work <b>&gt;&gt;</b></a>
-                                 </div>
-                                 </address>
+
+                                <div class="navbar-header">
+                                    <button type="button" class="btn btn-primary btnputwork" data-toggle="modal" data-target="#exampleModal">
+                                        Put me to work
+                                    </button>
+                                </div>
+                                
                             </div>
     					</nav>
                 </div>
@@ -114,7 +116,9 @@
                     	Web development.
                     </h3>
                     
-                I design fluid All-In-One responsive layouts that flow and look great on any screen size. They can be viewed on large displays and scale down to tablet and mobile devices.<br/>This includes both the frontend and backend, using:<br/><strong> <span class="zoomin" id="webtools">HTML,CSS,JavaScript,PHP,MySQL,Jquery,Bootstrap</span></strong>
+                I design fluid All-In-One responsive layouts that flow and look great on any screen size. They can be viewed on large displays and scale down to tablet and mobile devices.<br/>
+                This includes both the frontend and backend, using:<br/><strong> 
+                    <span class="zoomin" id="webtools">Vue JS, Laravel, HTML,CSS,JavaScript,PHP,MySQL,Jquery,Bootstrap</span></strong>
                 </p>
                 	
                  <p>
@@ -160,16 +164,14 @@
                 </div>
                 
                 <div class="col-sm-6 text-center" style="float:right" id="whatihavebeencard" >
-                    <img src="Assets/Img/itrans.png" class="jay-img"/>
-                    <h4 class="jay-title project-title swing">Itrans</h4>
-                    <h5>Web design/UI/MySQL</h5>
+                    <img src="Assets/Img/salutare/1.png" class="jay-img"/>
+                    <h4 class="jay-title project-title swing">Salutare Admin</h4>
+                    <h5>VueJS | Materialize CSS | Firebase</h5>
                     <p>
-                        Helps both passengers and bus companies by simplifying the travelling process.
-                        The passengers can check online for available vehicles to book. 
-                         Companies have to register to the system and their available vehicles in operation. The system also generates tickets for the customers. 
-                         It also has analysis.
+                        Vue JS admin dashboard for a Salutare system.
+                        The system is for linking patients with mobile doctors by use of android mobile applications 
                     </p>
-                    <a class="btn btn-outline-info" href="https://github.com/ikubij/itrans-bus-booking-system/tree/master/iTrans-bus-booking-system">link</a>
+                    <a class="btn btn-outline-info" href="https://github.com/ikubij/Salutare_admin">link</a>
                 </div>
             </div>
         </div>
@@ -186,9 +188,11 @@
         <p>
         I am a currently available as a freelancer developer.Just click the button below and talk to me.
         </p>
-       <address>
-    		<a class="btn btn-info" href="mailto:ikubij@gmail.com">Put me to work <b>&gt;&gt;</b></a>
-         </address>
+        <div class="navbar-header">
+            <button type="button" class="btn btn-primary btnputwork" data-toggle="modal" data-target="#exampleModal">
+                Put me to work
+            </button>
+        </div>
     </center>
     </section>
     
@@ -208,9 +212,11 @@
             </h3>
     		Handcrafted by <a class="jay-link" href="#">James Ikubi</a>,with a little help from <a class="jay-link" href="https://getbootstrap.com">Bootstrap</a> (CSS framework) and <a class="jay-link" href="https://jquery.com">JQuery</a>(Javascript framework).
              <center>
-            <address>
-                <a class="btn btn-info" href="mailto:ikubij@gmail.com">Put me to work <b>&gt;&gt;</b></a>
-             </address>
+            
+                <button type="button" class="btn btn-primary btnputwork" data-toggle="modal" data-target="#exampleModal">
+                   Put me to work
+                </button>
+           
              </center>
     	</div>
         
@@ -239,12 +245,32 @@
 </section>
 </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contacts</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Email : ikubij@gmail.com <br/>
+            Whatsapp: +254 702 601 525
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
+
 <link rel="stylesheet" type="text/css" href="Assets/Css/animate.css"/>
 <script src="Assets/Js/jquery.min.js"></script>
 <script src="Assets/Js/morphext.min.js"></script>
 <script src="Assets/Js/bootstrap.min.js"></script>
 <script src="Assets/Js/js.js"></script>
 <script>window.jQuery || document.write('<script src="bower_components/jquery/jquery.min.js"><\/script>')</script>  
-     
 </body>
 </html>

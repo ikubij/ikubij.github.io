@@ -34,11 +34,11 @@
                                     <a class= "nav-link " href="#">Portfolio <span class= "sr-only" > (current) </span></a>
                                     </li>                 
                                 </ul>
-                                <address>
-                                 <div class="navbar-header">
-                                   	<a class="btn btn-info" href="mailto:ikubij@gmail.com" id="btnputwork">Put me to work <b>&gt;&gt;</b></a>
-                                 </div>
-                                 </address>
+                                <div class="navbar-header">
+                                    <button type="button" class="btn btn-primary btnputwork" data-toggle="modal" data-target="#exampleModal">
+                                        Put me to work
+                                    </button>
+                                </div>
                             </div>
     					</nav>
                 </div>
@@ -105,6 +105,8 @@
                     </h3>
                     
                     <div type="1" class="jay-stickers" > 
+                        <span class="badge ">Laravel</span>
+                     	<span class="badge ">Vue JS</span><br/>
                     	<span class="badge ">HTML5/CSS3</span>
                      	<span class="badge ">Javascript</span><br/>
                         <span class="badge ">Photoshop</span><br/>
@@ -114,7 +116,8 @@
                         <span class="badge ">MySQL</span><br/>
                         <span class="badge ">JQuery</span>
                         <span class="badge ">Bootstrap</span><br/>
-                        e.t.c
+                        <span class="badge ">No SQL</span>
+                        <span class="badge ">Firebase</span><br/>
                         
                     </div>             
 
@@ -148,9 +151,9 @@
         <p>
         I am a currently available as a freelancer developer.Just click the button and talk to me.
         </p>
-       <address>
-    		<a class="btn btn-info" href="mailto:ikubij@gmail.com">Put me to work <b>&gt;&gt;</b></a>
-         </address>
+        <button type="button" class="btn btn-primary btnputwork" data-toggle="modal" data-target="#exampleModal">
+            Put me to work
+        </button>
     </center>
     </section>
     
@@ -170,9 +173,9 @@
             </h3>
     		Handcrafted by <a class="jay-link" href="#">James Ikubi</a>,with a little help from <a class="jay-link" href="https://getbootstrap.com">Bootstrap</a> (CSS framework) and <a class="jay-link" href="https://jquery.com">JQuery</a>(Javascript framework).
              <center>
-            <address>
-                <a class="btn btn-info" href="mailto:ikubij@gmail.com">Put me to work <b>&gt;&gt;</b></a>
-             </address>
+                <button type="button" class="btn btn-primary btnputwork" data-toggle="modal" data-target="#exampleModal">
+                    Put me to work
+                </button>
              </center>
     	</div>
         
@@ -200,6 +203,27 @@
     </center>
 </section>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contacts</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            Email : ikubij@gmail.com <br/>
+            Whatsapp: +254 702 601 525
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>
 
 <link rel="stylesheet" type="text/css" href="Assets/Css/animate.css"/>
 <script src="Assets/Js/jquery.min.js"></script>
